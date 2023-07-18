@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Budget Tracker </title>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "styling.css">
+    <script src = "scripts.js" defer = "true"> </script>
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "budget">
+        <h2> Total Budget </h2>
+        <input type = "number" id = "total" placeholder = "Enter Total Budget Amount">
+        <button> Confirm Budget </button>
+      </div>
+      <div class = "expenses">
+        <h2> Expenses Accrued </h2>
+        <input type = "text" id = "expense" placeholder = "Enter Expenditure">
+        <input type = "number" id = "cost" placeholder = "Enter Cost of Expenditure"> 
+        <button> Confirm Expense Amount </button>
+      </div>
+      <div class = "dashboard">
+        <h3> Total Budget </h3>
+        <span id = "amount"> 0 </span>
+        <h3> Total Expenses </h3>
+        <span id = "payment"> 0 </span>
+        <h3> Total Balance </h3>
+        <span id = "balance"> 0 </span>
+      </div>
+      <div class = "list">
+        <h2> Expense List </h2>
+        <div class = "list-container" id = "expenditure"> </div>
+      </div>
+    </div>
+  </body>
+</html>
