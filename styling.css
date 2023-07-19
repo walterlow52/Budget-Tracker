@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New";
+}
+
+body {
+  background: linear-gradient(to top right, white, blue, white);
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 5px navy;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+button {
+  backround-color: tomato;
+  color: white;
+  border-radius: 12px;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}  
+
+input {
+  display: block;
+  color: gray;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px double black;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+input:focus {
+  border-color: black;
+}
+
+.container {
+  width: 100%;
+  font-size: 20px;
+}
+
+.budget {
+  width: 100%;
+  background: linear-gradient(to right bottom, navy, white, navy);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px black;
+}  
+
+.expenses {
+  width: 100%;
+  background: linear-gradient(to right bottom, red, black, red);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, gold, white, gold);
+  color: black;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.dashboard h3, span {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: black;
+}
+
