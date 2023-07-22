@@ -55,6 +55,7 @@ input:focus {
   background: linear-gradient(to right bottom, red, black, red);
   border-radius: 12px;
   box-shadow: 5px 5px 5px black;
+  margin-top: 20px;
 }
 
 .dashboard {
@@ -64,6 +65,7 @@ input:focus {
   color: black;
   border-radius: 12px;
   box-shadow: 5px 5px 5px black;
+  margin-top: 20px;
 }
 
 .dashboard h3, span {
